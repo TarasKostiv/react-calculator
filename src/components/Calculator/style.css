@@ -1,0 +1,22 @@
+.calculator{
+    width: 300px;
+    height: 80%;
+}
+
+.calculator__number-input{
+    width: 100%;
+    padding: 7px;
+    font-size: 1.6rem;
+}
+
+.calculator__button-grid{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.calculator__number-button{
+    width: calc(100% / 4);
+    height: 50px;
+    font-size: 1.6rem;
+}
