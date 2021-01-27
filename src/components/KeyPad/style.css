@@ -1,0 +1,23 @@
+.key-pad{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #f6f6f6;
+}
+
+.key-pad button {
+    width: calc(100%/4 - 4px);
+    height: 70px;
+    font-size: 2em;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
+    transition: .2s all;
+}
+.key-pad button:focus{
+    border: 1px solid #000;
+}
+
+.key-pad button:hover{
+    background: #fff;
+}
